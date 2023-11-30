@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+  h2:
+    console:
+      enabled: true
+server:
+  port: 8080
+jwt:
+  secret: l8PRun6OfKi4Y5C8eiaGDkpsfv2QwB34s6T3F7TktUII8k2HdWdfkGFlTjCY51F1CptXScDIlJd4gChzVgwxsA==
+  expiration: 600
